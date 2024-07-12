@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Cookies from "js-cookie";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import RoomListing from "./pages/room_listing";
 import Header from "./layout/AppBar";
 import ReservationAddingPage from "./pages/reservations_adding";
@@ -8,7 +7,6 @@ import ReservationListing from "./pages/reservation_listing";
 import { UserContext } from "./contexts/user";
 import { User } from "./types/generated";
 import ReservationUpdatingPage from "./pages/reservations_updating";
-import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ThemeProvider } from "@mui/material/styles";
 import NotFound from "./pages/not_found";
